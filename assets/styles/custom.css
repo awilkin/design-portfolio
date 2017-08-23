@@ -1,0 +1,43 @@
+.links {
+  display: flex;
+  justify-content: flex-end;
+  /*align-content: center;*/
+}
+
+.nav-link {
+  text-transform: uppercase;
+  color: #323232;
+  padding: 15px 20px 0;
+}
+
+.strike {
+    position: relative;
+    display: inline-block;
+}
+.strike::before {
+    content: '';
+    border-bottom: 3px solid #323232;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 60%;
+}
+
+.principles {
+  display: flex;
+  align-content: space-around;
+}
+
+.principle-box {
+  background-color: white;
+  width: 400px;
+}
+
+#lp-CaseStudy {
+  background-color: #04E8BE;
+  /*0D5DDD*/
+}
+
+/*#lp-CaseStudy-wrap {
+  vertical-align: middle;
+}*/
