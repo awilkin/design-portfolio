@@ -3244,7 +3244,7 @@ body:not(.Home) .Nav > .Header {
   .WorkTogether .WorkTogether-wrap {
     align-items: center;
     display: flex;
-    height: 100vh; }
+    height: 100px; }
   @media (min-width: 670px) {
     .WorkTogether .wrap {
       max-width: 870px; } }

@@ -23,21 +23,41 @@
     top: 60%;
 }
 
-.principles {
+.projects {
   display: flex;
-  align-content: space-around;
+  flex-flow: row wrap;
 }
 
 .principle-box {
-  background-color: white;
-  width: 400px;
+  width: 560px;
+  margin-bottom: 60px;
+}
+
+.project-box {
+  width: 560px;
+  margin-bottom: 60px;
+}
+
+.white {
+  color: #fff;
+  /*text-transform: uppercase;*/
+}
+
+.prince-desc {
+  color: white;
+  line-height: 1.3em;
+  font-size: 1.5em;
 }
 
 #lp-CaseStudy {
-  background-color: #04E8BE;
-  /*0D5DDD*/
+  background-color: #0D5DDD;
 }
 
-/*#lp-CaseStudy-wrap {
-  vertical-align: middle;
-}*/
+.featured-work {
+  background-color: #010A19;
+  padding: 150px 0 150px;
+}
+
+#featured-wrap {
+  height: auto;
+}
