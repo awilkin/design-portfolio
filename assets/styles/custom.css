@@ -10,6 +10,12 @@
   padding: 15px 20px 0;
 }
 
+.p-link {
+  text-transform: uppercase;
+  color: #fff;
+  padding-right: 17px;
+}
+
 .strike {
     position: relative;
     display: inline-block;
@@ -26,6 +32,7 @@
 .projects {
   display: flex;
   flex-flow: row wrap;
+  margin-top: 60px
 }
 
 .principle-box {
@@ -34,13 +41,68 @@
 }
 
 .project-box {
-  width: 560px;
-  margin-bottom: 60px;
+  width: 360px;
+  background-color: #fff;
+  margin: 0 60px 70px 0;
+  box-shadow: 7px 13px 50px 0 rgba(255,255,255,0.30);
+  border-radius: 2px;
+}
+
+.project-box:last-of-type {
+  margin-right: 0;
+}
+
+.proj-title {
+  position: absolute;
+}
+
+.proj-title-text {
+  margin: 0;
+  color: #fff;
+  font-size: 3em;
+  margin-left: 23px;
+  padding-top: 170px;
+}
+
+.proj-desc {
+  padding: 16px 23px 16px;
+  color: #010A19;
+  line-height: 1.4em;
+}
+
+.proj-img {
+  /*background-image: url('../imgs/olumo-cover.png');*/
+  height: 240px;
+  /*width: 300px;*/
+  background-size: 100%;
+}
+
+.olumo-cover {
+  background-image: url('../imgs/olumo-cover.png');
+}
+
+.bm-cover {
+  background-image: url('../imgs/bm-cover.png');
+}
+
+.proj-desc > p {
+  margin-top: 0;
+  font-size: 1.3em;
+}
+
+.bm-btn {
+  background-image: linear-gradient(-135deg, #04E8BE 0%, #0D5DDD 100%);
+  box-shadow: 0 16px 52px 0 rgba(234,252,223,0.20);
+  text-transform: uppercase;
+  font-family: "open-sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 27px;
+  color: #FFFFFF;
+  letter-spacing: 1.05px;
+  padding: 15px 50px;
 }
 
 .white {
   color: #fff;
-  /*text-transform: uppercase;*/
 }
 
 .prince-desc {
@@ -49,13 +111,21 @@
   font-size: 1.5em;
 }
 
+.goto-portfolio {
+  display: inline-block;
+}
+
+#right-arrow {
+  padding-top: 6px;
+}
+
 #lp-CaseStudy {
   background-color: #0D5DDD;
 }
 
 .featured-work {
   background-color: #010A19;
-  padding: 150px 0 150px;
+  padding: 100px 0 100px;
 }
 
 #featured-wrap {
