@@ -59,35 +59,44 @@
   flex-flow: row wrap;
   margin-top: 60px
 }
-  .project-box {
+.featured-container {
+  width: 100%;
+}
+
+  a .project-box {
     width: 360px;
     background-color: #fff;
     margin: 0 60px 70px 0;
     box-shadow: 7px 13px 50px 0 rgba(255,255,255,0.30);
     border-radius: 2px;  }
-    @media (max-width: 968px) {
-      .project-box {
+    @media (max-width: 1042px) {
+      a .project-box {
         width: 100%;
         margin: 0 0 70px 0;
+        justify-content: center;
       }
+      .featured-container a {
+        width: 100%;
+      }
+
     }
-    .project-box:last-of-type {
+    a .project-box .last {
       margin-right: 0;
     }
-  .proj-title-text {
+  a .proj-title-text {
     margin: 0;
     color: #fff;
     font-size: 3em;
     margin-left: 23px;
     padding-top: 170px; }
-  .proj-desc {
+  a .proj-desc {
     padding: 16px 23px 16px;
     color: #010A19;
     line-height: 1.4em; }
-  .proj-desc > p {
+  a .proj-desc > p {
     margin-top: 0;
     font-size: 1.3em; }
-  .proj-img {
+  a .proj-img {
     height: 240px;
     background-size: 100%; }
     .olumo-cover {
@@ -105,6 +114,6 @@
 
 .featured-work {
   background-color: #010A19;
-  padding: 100px 0 100px; }\
+  padding: 100px 0 100px; }
   #featured-wrap {
     height: auto; }
