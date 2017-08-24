@@ -167,8 +167,14 @@
 
 /* CONTACT */
 
-#touch {
+.center {
   text-align: center;
+}
+
+.success {
+  display: flex;
+  margin: 40px auto 32px auto;
+  justify-content: center;
 }
 
 .Masthead {

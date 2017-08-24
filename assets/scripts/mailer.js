@@ -75,6 +75,7 @@ function handleFormSubmit(event) {  // handles form submit withtout any jquery
         console.log( xhr.status, xhr.statusText )
         console.log(xhr.responseText);
         document.getElementById('gform').style.display = 'none'; // hide form
+        document.getElementById('touch').style.display = 'none'; // hide form
         document.getElementById('thankyou_message').style.display = 'block';
         return;
     };
