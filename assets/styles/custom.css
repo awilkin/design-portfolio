@@ -1,122 +1,87 @@
 .links {
   display: flex;
-  justify-content: flex-end;
-  /*align-content: center;*/
-}
-
-.nav-link {
-  text-transform: uppercase;
-  color: #323232;
-  padding: 15px 20px 0;
-}
+  justify-content: flex-end; }
+  .nav-link {
+    text-transform: uppercase;
+    color: #323232;
+    padding: 15px 20px 0; }
 
 .p-link {
   text-transform: uppercase;
   color: #fff;
-  padding-right: 17px;
-}
+  padding-right: 17px; }
+  .goto-portfolio {
+    display: inline-block;
+  }
+  #right-arrow {
+    padding-top: 6px;
+  }
+  /*.MenuSocial a {
+    color: #3c4143;
+    transition: color 200ms ease-in-out, transform 200ms ease-in-out; }
+    .MenuSocial a:hover,
+    .MenuSocial a:active,
+    .MenuSocial a:focus {
+      color: #656565;
+      transform: scale(1.1); }*/
 
 .strike {
     position: relative;
-    display: inline-block;
-}
-.strike::before {
-    content: '';
-    border-bottom: 3px solid #323232;
-    width: 100%;
-    position: absolute;
-    right: 0;
-    top: 60%;
-}
+    display: inline-block; }
+  .strike::before {
+      content: '';
+      border-bottom: 3px solid #323232;
+      width: 100%;
+      position: absolute;
+      right: 0;
+      top: 60%; }
+
+.principle-box {
+  width: 560px;
+  margin-bottom: 60px; }
+  .prince-desc {
+    color: white;
+    line-height: 1.3em;
+    font-size: 1.5em;
+  }
 
 .projects {
   display: flex;
   flex-flow: row wrap;
   margin-top: 60px
 }
-
-.principle-box {
-  width: 560px;
-  margin-bottom: 60px;
-}
-
-.project-box {
-  width: 360px;
-  background-color: #fff;
-  margin: 0 60px 70px 0;
-  box-shadow: 7px 13px 50px 0 rgba(255,255,255,0.30);
-  border-radius: 2px;
-}
-
-.project-box:last-of-type {
-  margin-right: 0;
-}
-
-.proj-title {
-  position: absolute;
-}
-
-.proj-title-text {
-  margin: 0;
-  color: #fff;
-  font-size: 3em;
-  margin-left: 23px;
-  padding-top: 170px;
-}
-
-.proj-desc {
-  padding: 16px 23px 16px;
-  color: #010A19;
-  line-height: 1.4em;
-}
-
-.proj-img {
-  /*background-image: url('../imgs/olumo-cover.png');*/
-  height: 240px;
-  /*width: 300px;*/
-  background-size: 100%;
-}
-
-.olumo-cover {
-  background-image: url('../imgs/olumo-cover.png');
-}
-
-.bm-cover {
-  background-image: url('../imgs/bm-cover.png');
-}
-
-.proj-desc > p {
-  margin-top: 0;
-  font-size: 1.3em;
-}
-
-.bm-btn {
-  background-image: linear-gradient(-135deg, #04E8BE 0%, #0D5DDD 100%);
-  box-shadow: 0 16px 52px 0 rgba(234,252,223,0.20);
-  text-transform: uppercase;
-  font-family: "open-sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 27px;
-  color: #FFFFFF;
-  letter-spacing: 1.05px;
-  padding: 15px 50px;
-}
+  .project-box {
+    width: 360px;
+    background-color: #fff;
+    margin: 0 60px 70px 0;
+    box-shadow: 7px 13px 50px 0 rgba(255,255,255,0.30);
+    border-radius: 2px;  }
+    .project-box:last-of-type {
+      margin-right: 0;
+    }
+  .proj-title-text {
+    margin: 0;
+    color: #fff;
+    font-size: 3em;
+    margin-left: 23px;
+    padding-top: 170px; }
+  .proj-desc {
+    padding: 16px 23px 16px;
+    color: #010A19;
+    line-height: 1.4em; }
+  .proj-desc > p {
+    margin-top: 0;
+    font-size: 1.3em; }
+  .proj-img {
+    height: 240px;
+    background-size: 100%; }
+    .olumo-cover {
+      background-image: url('../imgs/olumo-cover.png'); }
+    .bm-cover {
+      background-image: url('../imgs/bm-cover.png'); }
 
 .white {
   color: #fff;
-}
-
-.prince-desc {
-  color: white;
-  line-height: 1.3em;
-  font-size: 1.5em;
-}
-
-.goto-portfolio {
-  display: inline-block;
-}
-
-#right-arrow {
-  padding-top: 6px;
 }
 
 #lp-CaseStudy {
@@ -125,9 +90,6 @@
 
 .featured-work {
   background-color: #010A19;
-  padding: 100px 0 100px;
-}
-
-#featured-wrap {
-  height: auto;
-}
+  padding: 100px 0 100px; }\
+  #featured-wrap {
+    height: auto; }
