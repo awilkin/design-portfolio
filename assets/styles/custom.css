@@ -56,6 +56,12 @@
     margin: 0 60px 70px 0;
     box-shadow: 7px 13px 50px 0 rgba(255,255,255,0.30);
     border-radius: 2px;  }
+    @media (max-width: 968px) {
+      .project-box {
+        width: 100%;
+        margin: 0 0 70px 0;
+      }
+    }
     .project-box:last-of-type {
       margin-right: 0;
     }
