@@ -139,6 +139,63 @@
     padding-right: 0;
   }
 
+
+  .fa-instagram {
+    /*display: inline-block;*/
+    -webkit-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+  }
+    .fa-instagram:hover {
+      -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+      -moz-transform: scale(1.3);
+      transform: scale(1.3);
+    }
+  .fa-facebook {
+    /*display: inline-block;*/
+    -webkit-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+  }
+    .fa-facebook:hover {
+      -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+      -moz-transform: scale(1.3);
+      transform: scale(1.3);
+    }
+  .fa-behance {
+    /*display: inline-block;*/
+    -webkit-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+  }
+    .fa-behance:hover {
+      -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+      -moz-transform: scale(1.3);
+      transform: scale(1.3);
+    }
+  .fa-linkedin {
+    /*display: inline-block;*/
+    -webkit-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+  }
+    .fa-linkedin:hover {
+      -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+      -moz-transform: scale(1.3);
+      transform: scale(1.3);
+    }
+
+
+
+
 .footer {
   padding: 12px 0 15px 0;
   color: #010A19;
@@ -180,6 +237,10 @@
 .Masthead {
   align-items: flex-start;
   margin-top: 50px;
+}
+
+#touch {
+  max-width: none;
 }
 
 .contact-form {
@@ -250,4 +311,30 @@
 .contact-form input[type="submit"]:hover,
 .contact-form input[type="button"]:hover{
     background: #0B4FBC;
+}
+
+
+/*  PORTFOLIO  */
+
+.Main {
+  height: 100vh;
+}
+
+.port {
+  height: auto !important;
+  background-color: #0B4FBC;
+}
+
+@media screen and (min-width: 1200px) {
+  .bricklayer-column-sizer {
+    /* divide by 3. */
+    width: 33.3%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bricklayer-column-sizer {
+    /* divide by 2. */
+    width: 50%;
+  }
 }
