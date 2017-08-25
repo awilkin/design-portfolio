@@ -317,25 +317,30 @@
 /*  PORTFOLIO  */
 
 .Main {
-  height: 100vh;
+  height: auto;
+}
+
+.p-head {
+  max-width: 730px;
+  margin: 20px auto;
 }
 
 .port {
-  height: auto !important;
-  padding-bottom: 120px;
+  height: auto;
+  padding-bottom: 80px;
 }
 
-@media screen and (min-width: 1200px) {
-  .bricklayer-column-sizer {
-    /* divide by 3. */
-    width: 33.3%;
-  }
-}
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1201px) {
   .bricklayer-column-sizer {
     /* divide by 2. */
     width: 50%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .bricklayer-column-sizer {
+    /* divide by 1. */
+    width: 100%;
   }
 }
 
@@ -347,10 +352,11 @@
 .portfolio-pieces article {
   border: 10px solid #FFF;
   position: relative;
+  box-shadow: 4px 7px 12px 0 rgba(0, 0, 0, .1);
 }
 
 .portfolio-pieces a {
-  transition: .2s
+  transition: .2s;
   display: inline;
 }
 
@@ -365,6 +371,24 @@
   left: 0;
   right: 0;
   opacity: 0;
+}
+
+.portfolio-pieces .card h3 {
+  font-size: 24px;
+  letter-spacing: -.6px;
+  font-weight: 400;
+  margin: 0;
+  font-family: "open-sans", sans-serif;
+}
+
+.portfolio-pieces .card small {
+  font-family: "open-sans", sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  opacity: .7;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  display: block;
 }
 
 .bricklayer-column article {
