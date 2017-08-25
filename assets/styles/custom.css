@@ -322,7 +322,7 @@
 
 .port {
   height: auto !important;
-  background-color: #0B4FBC;
+  padding-bottom: 120px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -337,4 +337,47 @@
     /* divide by 2. */
     width: 50%;
   }
+}
+
+.portfolio-pieces img {
+  max-width: 100%;
+  display: block;
+}
+
+.portfolio-pieces article {
+  border: 10px solid #FFF;
+  position: relative;
+}
+
+.portfolio-pieces a {
+  transition: .2s
+  display: inline;
+}
+
+.portfolio-pieces .card {
+  position: absolute;
+  border: 2px solid #0D5DDD;
+  background: #0D5DDD;
+  color: #FFF;
+  padding: 25px 84px 25px 25px;
+  transition: .2s;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+}
+
+.bricklayer-column article {
+    margin-bottom: 32px;
+}
+
+.bricklayer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
 }
