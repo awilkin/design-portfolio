@@ -7,6 +7,21 @@
     padding: 15px 20px 0;
     font-family: 'open-sans', sans-serif; }
 
+.strike {
+  position: relative;
+  display: inline-block; }
+  .strike::before {
+    content: '';
+    border-bottom: 3px solid #323232;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 60%; }
+
+.m-head {
+  max-width: 760px;
+}
+
 .goto-portfolio {
   display: inline-block;
   -webkit-transition: all 200ms ease-in-out;
@@ -36,17 +51,6 @@
   #right-arrow {
     padding-top: 6px; }
 
-.strike {
-    position: relative;
-    display: inline-block; }
-  .strike::before {
-      content: '';
-      border-bottom: 3px solid #323232;
-      width: 100%;
-      position: absolute;
-      right: 0;
-      top: 60%; }
-
 .principle-box {
   width: 560px;
   margin-bottom: 60px; }
@@ -56,6 +60,8 @@
     font-size: 1.5em;
   }
 
+
+/*
 .projects {
   display: flex;
   flex-flow: row wrap;
@@ -104,7 +110,7 @@
     .olumo-cover {
       background-image: url('../imgs/olumo-cover.png'); }
     .bm-cover {
-      background-image: url('../imgs/bm-cover.png'); }
+      background-image: url('../imgs/bm-cover.png'); }*/
 
 .white {
   color: #fff;
@@ -234,7 +240,7 @@
   justify-content: center;
 }
 
-.Masthead {
+#contact-head {
   align-items: flex-start;
   margin-top: 50px;
 }
@@ -350,7 +356,7 @@
 }
 
 .portfolio-pieces article {
-  border: 10px solid #FFF;
+  border: 3px solid #FFF;
   position: relative;
   box-shadow: 4px 7px 12px 0 rgba(0, 0, 0, .1);
 }
@@ -408,4 +414,72 @@ article:hover .card {
 
 a {
   text-decoration: none;
+}
+
+
+/* FEATURED WORK - PROJECTS */
+
+.projects img {
+  max-width: 100%;
+  display: block;
+}
+
+.projects article {
+  border: 3px solid #FFF;
+  position: relative;
+  box-shadow: 4px 7px 12px 0 rgba(0, 0, 0, .1);
+}
+
+.projects a {
+  transition: .2s;
+  display: inline;
+}
+
+.projects .card {
+  position: absolute;
+  border: 2px solid #010A19;
+  background: #010A19;
+  color: #FFF;
+  padding: 25px 84px 25px 25px;
+  transition: .2s;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+}
+
+article:hover .card {
+  opacity: 1;
+}
+
+.projects .card h3 {
+  font-size: 24px;
+  letter-spacing: -.6px;
+  font-weight: 400;
+  margin: 0;
+  font-family: "open-sans", sans-serif;
+}
+
+.projects .card small {
+  font-family: "open-sans", sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  opacity: .7;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  display: block;
+}
+
+@media screen and (min-width: 1201px) {
+  .projects .bricklayer-column-sizer {
+    /* divide by 2. */
+    width: 33.3%;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .projects .bricklayer-column-sizer {
+    /* divide by 1. */
+    width: 50%;
+  }
 }
