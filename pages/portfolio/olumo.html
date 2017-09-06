@@ -68,13 +68,62 @@
 
 <main class="Main">
 
-<div class="Masthead" id="masthead contact-head">
+<div class="Masthead piece-title" id="masthead contact-head">
 	<div class="Masthead-wrap wrap" id="masthead-wrap">
 		<h1 class="center" id="touch">Olumo</h1>
     <p class="center">Employee engagement. Simplified.</p>
 
 	</div>
 </div>
+
+<div class="wrap piece-wrap">
+
+	<h2>The Problem</h2>
+	<p class="piece-p">Annual employee satisfaction surveys give managers and HR representatives only so much insight into how their employees are doing. Within 2 weeks, survey data (and any decision made with that data) is outdated. Managers and HR representatives rely on making gut decisions rather than informed, data-driven decisions.</p>
+
+		<h3>About the Project</h3>
+		<p>Olumo gathers real-time employee feedback to aid managers in making informed decisions about how to make their employees happier and more productive. The following dashboards allow managers to quickly find a pulse on the heartbeat of their organization. They can view, analyze, and compare different departments to understand their employees and departments, and then make data-driven decisions based on trends they see.</p>
+
+		<!-- <img src="../../assets/imgs/olumo/Problem.png" alt="olumo-logo"> -->
+		<img src="../../assets/imgs/olumo/wood_mac_phone.png" alt="olumo-logo">
+
+		<h3>My Role</h3>
+		<p>Some of the fundamental design work for Olumo had already been done by the time I came in, but I designed and built several new features that made it even easier for managers to identify trends and act.</p>
+
+		<h3>Insights</h3>
+		<p>When I arrived on the project, I found that managers only had access to the last week or two of data. It seemed to me that if a manager was to make a data-driven decision and then measure the decision's effect, two weeks was not enough data to validate the change made. Also, only one department could be viewed at a time which made comparing different areas of organizations unintuitive and difficult.</p>
+		<p>	To validate this assumption, members of Olumo's team brought this idea forward to several of Olumo's clients. According to managers, seeing long-term changes in employee satisfaction is just as important as getting a quick pulse for how employees were doing today. They were enthusiastic about the idea having the freedom to customize their data analysis as needed.</p>
+		<p>	We also heard from several of our contacts that they wanted a way to track the long-term effects of initiatives they took. If they have a campaign to help employees feel listened to in the work place, they only had two weeks to measure and track if there was an effect. Realistically, their initiatives may take months to effect real change.</p>
+
+	<h2>The Process</h2>
+	<p>Starting with simple pen and paper, I quickly sketched out a few solutions. I brought them forward to a manager at the company I worked for to get his immediate feedback. He quickly told me what worked and what didn't in my designs, which I included in the next higher-fidelity sketches I completed.</p>
+
+		<h3>Totals vs. Departments</h3>
+		<p>For example, I initially sketched out that when all the attributes Olumo measured were selected, only one totals line would show. The manager pointed out that he would want to see specific departments compared against the entire company.</p>
+
+		<h3>Date Selection</h3>
+		<p>In order for this new tool to be truly helpful, the date selection process had to be intuitive. I collaborated with another designer/developer on my team to create the initial designs for the date picker. We again validated our designs with managers within our organization and found that they wanted easy access to frequent timeframes, like 30 days, 3 months, 6 months, and a year.</p>
+
+		<h3>Initiative Table</h3>
+		<p>After learning from our managers that they wanted to track the long-term effects of initiatives they put in place, we decided to make it easier on them. I designed a table that interfaces with the engagement graph to show current initiatives. Managers can track and identify initiatives within the initiative table. Information like what department the initiative effects, which attribute an initiative is targeting, and a date and description for the initiative.</p>
+		<p>After determining the fundamental elements of our solution, I began researching the tools that would make it possible. I researched several data visualization tools, including <a href="www.d3js.com">D3</a>, <a href="www.chartjs.org">highcharts</a>, and <a href="www.chartjs.org">Charts.js</a>. After confirming that our solution is possible, I built high-fidelity screens in Sketch.</p>
+
+		<h3>Wireframes</h3>
+		<p>After the third iteration of feedback from the in-house manager, here's what the mockups looked like:</p>
+
+	<h2>The Solution</h2>
+	<p>After the designs in Sketch were completed and validated, I built the front-end of the engagement graph using HTML Slim, SASS, CoffeeScript, and Ruby on Rails while coordinating with another developer who built the backend.</p>
+	<p>Managers can select departments and attributes they'd like to compare, select a date range, and then visually analyze data trends. Managers can also create initiatives to track changes they made and instantly see if there is an effect on employees.</p>
+
+	<p>Departments that are doing stellar can be mimicked, and extra focus can be given to struggling departments. The engagement graph allows the user to drill-down and understand where exactly employees are struggling, so managers can tailor their actions to specific problems.</p>
+
+	<h2>The Impact</h2>
+	<p>Several managers reached out to express appreciation with the new features. Within the first two weeks of the new features, managers had used the new initiative feature to track over 100 managerial actions within the workplace.</p>
+	<p>On average, we found a [%%%] increase in employee satisfaction after the engagement graph features were implemented. This feature helps both the managers who are directly using the web application and the employees who are effected by better management.</p>
+
+</div>
+<div class="space"></div>
+
 </main>
 
 

@@ -1,3 +1,5 @@
+/* ********************* HEADER ********************* */
+
 .links {
   display: flex;
   justify-content: flex-end; }
@@ -21,6 +23,8 @@
 .m-head {
   max-width: 760px;
 }
+
+/* ********************* PROFILE (LANDING) PAGE ********************* */
 
 .goto-portfolio {
   display: inline-block;
@@ -128,7 +132,8 @@
 
 
 
-/*  FOOTER  */
+/* ********************* FOOTER ********************* */
+
 
 .social-icon {
   display: flex;
@@ -228,7 +233,8 @@
 
 
 
-/* CONTACT */
+/* ********************* CONTACT PAGE ********************* */
+
 
 .center {
   text-align: center;
@@ -320,7 +326,8 @@
 }
 
 
-/*  PORTFOLIO  */
+/* ********************* PORTFOLIO PAGE ********************* */
+
 
 .Main {
   height: auto;
@@ -417,7 +424,58 @@ a {
 }
 
 
-/* FEATURED WORK - PROJECTS */
+/* ***************** DETAIL PAGE - PORTFOLIO ****************** */
+
+.piece-title {
+  height: auto;
+}
+
+.piece-wrap {
+  max-width: 740px;
+  padding-left: 20px;
+  padding-right: 20px;
+  word-break: break-word;
+  word-wrap: break-word;
+  color: #010A19;
+}
+  .piece-wrap h2 {
+    font-size: 32px;
+    letter-spacing: .013em;
+    margin-top: 54px;
+    margin-bottom: 15px;
+  }
+  .piece-wrap h3 {
+    font-size: 23px;
+    letter-spacing: .013em;
+    margin-bottom: 0;
+  }
+  .piece-wrap p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    --x-height-multiplier: 0.35;
+    --baseline-multiplier: 0.179;
+    font-size: 21px;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+    font-weight: 400;
+  }
+  .piece-wrap img {
+    display: block;
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    width: 100%;
+    /*height: 100%;*/
+    margin: auto;
+    box-sizing: border-box;
+  }
+
+
+.space {
+  height: 60px;
+}
+
+/* ***************** FEATURED WORK - PROJECTS ****************** */
 
 .projects img {
   max-width: 100%;
