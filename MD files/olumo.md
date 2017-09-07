@@ -4,7 +4,7 @@
 
 Employee Engagement. Simplified.
 
-## The Problem
+## The Need... Why Olumo.
 Annual employee satisfaction surveys give managers and HR representatives only so much insight into how their employees are doing. Within 2 weeks, survey data (and any decision made with that data) is outdated. Managers and HR representatives rely on making gut decisions rather than informed, data-driven decisions.
 
 ### About the Project
@@ -15,17 +15,19 @@ Olumo gathers real-time employee feedback to aid managers in making informed dec
 ### My Role
 Some of the fundamental design work for Olumo had already been done by the time I came in, but I designed and built several new features that made it even easier for managers to identify trends and act.
 
-### Insights
+### Insights / Initial Research
 When I arrived on the project, I found that managers only had access to the last week or two of data. It seemed to me that if a manager was to make a data-driven decision and then measure the decision's effect, two weeks was not enough data to validate the change made. Also, only one department could be viewed at a time which made comparing different areas of organizations unintuitive and difficult.
 
 To validate this assumption, members of Olumo's team brought this idea forward to several of Olumo's clients. According to managers, seeing long-term changes in employee satisfaction is just as important as getting a quick pulse for how employees were doing today. They were enthusiastic about the idea having the freedom to customize their data analysis as needed.
 
 We also heard from several of our contacts that they wanted a way to track the long-term effects of initiatives they took. If they have a campaign to help employees feel listened to in the work place, they only had two weeks to measure and track if there was an effect. Realistically, their initiatives may take months to effect real change.
 
-## The Process
+## The Process -- maybe include initial research here
 Starting with simple pen and paper, I quickly sketched out a few solutions. I brought them forward to a manager at the company I worked for to get his immediate feedback. He quickly told me what worked and what didn't in my designs, which I included in the next higher-fidelity sketches I completed.
 
 > Maybe re-sketch initial sketches for graph?
+
+## Features?
 
 #### Totals vs. Departments
 For example, I initially sketched out that when all the attributes Olumo measured were selected, only one totals line would show. The manager pointed out that he would want to see specific departments compared against the entire company.
@@ -55,7 +57,7 @@ Managers can select departments and attributes they'd like to compare, select a 
 
 Departments that are doing stellar can be mimicked, and extra focus can be given to struggling departments. The engagement graph allows the user to drill-down and understand where exactly employees are struggling, so managers can tailor their actions to specific problems.
 
-## The Impact
+## The Impact -- consider including in Solution?
 Several managers reached out to express appreciation with the new features. Within the first two weeks of the new features, managers had used the new initiative feature to track over 100 managerial actions within the workplace.
 
 On average, we found a [%%%] increase in employee satisfaction after the engagement graph features were implemented. This feature helps both the managers who are directly using the web application and the employees who are effected by better management.
