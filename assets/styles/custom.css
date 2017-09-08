@@ -58,9 +58,10 @@
   #right-arrow {
     padding-top: 6px; }
 
-    @media screen and (max-width: 670px) {
+    @media screen and (max-width: 770px) {
       .principles {
         padding-top: 25%;
+        padding-bottom: 25%;
       }
     }
 .principle-box {
