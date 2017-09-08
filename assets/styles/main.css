@@ -394,7 +394,7 @@ html {
 body {
   background-color: #fff;
   color: #868686;
-  font-family: "freight-text-pro", "Georgia", sans-serif;
+  font-family: 'Martel', sans-serif;
   font-size: 16px;
   overflow-x: hidden;
   text-rendering: optimizeLegibility; }
@@ -428,7 +428,7 @@ a {
 
 .title {
   color: #323232;
-  font-family: "open-sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: 'Open Sans', "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 42px;
   font-weight: 600;
   letter-spacing: -2px;
@@ -547,7 +547,7 @@ body:not(.Home) .Nav > .Header {
 .Masthead-wrap h1 {
   animation: fadeInDrop 400ms 800ms cubic-bezier(0.46, 0.03, 0.52, 0.96) 1 forwards;
   color: #323232;
-  font-family: "open-sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: 'Open Sans', "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 38px;
   font-weight: 600;
   letter-spacing: -3px;

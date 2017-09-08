@@ -7,7 +7,7 @@
     text-transform: uppercase;
     color: #323232;
     padding: 15px 20px 0;
-    font-family: 'open-sans', sans-serif; }
+    font-family: 'Open Sans', sans-serif; }
 
 .strike {
   position: relative;
@@ -53,7 +53,7 @@
     text-transform: uppercase;
     color: #fff;
     padding-right: 17px;
-    font-family: 'open-sans', sans-serif; }
+    font-family: 'Open Sans', sans-serif; }
 
   #right-arrow {
     padding-top: 6px; }
@@ -223,7 +223,7 @@
 .footer {
   padding: 12px 0 15px 0;
   color: #010A19;
-  font-family: 'open-sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -272,7 +272,7 @@
     max-width: 560px;
     align-items: center;
     margin: 60px auto 0;
-    font-family: 'open-sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .contact-form input[type="text"],
@@ -405,16 +405,16 @@ article:hover .card {
 
 .portfolio-pieces .card h3 {
   font-size: 24px;
-  letter-spacing: -.6px;
+  /*letter-spacing: -.6px;*/
   font-weight: 400;
   margin: 0;
-  font-family: "open-sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .portfolio-pieces .card small {
-  font-family: "open-sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 12px;
-  letter-spacing: 1px;
+  /*letter-spacing: 1px;*/
   opacity: .7;
   text-transform: uppercase;
   margin-bottom: 12px;
@@ -451,31 +451,30 @@ a {
   word-wrap: break-word;
   color: #010A19;
 }
+  .piece-wrap h2, h3, h4, p {
+    font-family: 'Martel', sans-serif;
+    letter-spacing: -.01em;
+  }
+  .piece-wrap h2, h3, h4 {
+    font-weight: 500;
+    margin-bottom: 0;
+  }
   .piece-wrap h2 {
     font-size: 42px;
-    letter-spacing: .013em;
     margin-top: 54px;
-    margin-bottom: 15px;
+    margin-bottom: -10px;
   }
   .piece-wrap h3 {
     font-size: 27px;
-    letter-spacing: .013em;
-    margin-bottom: 0;
   }
   .piece-wrap h4 {
     font-size: 21px;
-    letter-spacing: .013em;
-    margin-bottom: 0;
   }
   .piece-wrap p {
     margin-top: 10px;
     margin-bottom: 30px;
-    --x-height-multiplier: 0.35;
-    --baseline-multiplier: 0.179;
-    font-size: 21px;
+    font-size: 19px;
     line-height: 1.58;
-    letter-spacing: -.003em;
-    font-weight: 400;
   }
   .piece-wrap .img-combo {
     margin: 40px 0 60px;
@@ -495,7 +494,7 @@ a {
     color: rgba(1,10,25,.5);
     outline: 0;
     text-align: center;
-    font-family: "open sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: .8em;
     /*z-index: 300;*/
   }
@@ -545,16 +544,16 @@ article:hover .card {
 
 .projects .card h3 {
   font-size: 24px;
-  letter-spacing: -.6px;
+  /*letter-spacing: -.6px;*/
   font-weight: 400;
   margin: 0;
-  font-family: "open-sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .projects .card small {
-  font-family: "open-sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 12px;
-  letter-spacing: 1px;
+  /*letter-spacing: 1px;*/
   opacity: .7;
   text-transform: uppercase;
   margin-bottom: 12px;
