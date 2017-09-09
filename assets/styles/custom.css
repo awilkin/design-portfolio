@@ -486,6 +486,10 @@ a {
     flex-flow: row wrap;
     justify-content: center;
   }
+  .piece-wrap .behance-screens {
+    max-width: 360px;
+    margin: 0 auto;
+  }
   .piece-wrap .img-combo {
     margin: 40px 0 60px;
   }
@@ -498,6 +502,14 @@ a {
     display: inline-block;
     width: 49%;
     min-width: 260px;
+  }
+  .piece-wrap .divide-3 {
+    display: inline-block;
+    width: 33%;
+    min-width: 190px;
+  }
+  .piece-wrap .sm-pad {
+    padding-right: 1%;
   }
 
   .piece-wrap img {
