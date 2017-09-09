@@ -540,9 +540,9 @@ body:not(.Home) .Nav > .Header {
   .Masthead-wrap {
     margin-top: 66px; } }
 
-@media (min-width: 616px) and (orientation: portrait) {
+/*@media (min-width: 616px) and (orientation: portrait) {
   .Masthead-wrap {
-    margin-top: 236px; } }
+    margin-top: 236px; } }*/
 
 .Masthead-wrap h1 {
   animation: fadeInDrop 400ms 800ms cubic-bezier(0.46, 0.03, 0.52, 0.96) 1 forwards;
