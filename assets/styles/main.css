@@ -577,7 +577,7 @@ body:not(.Home) .Nav > .Header {
       padding-right: 30px; } }
   @media (min-width: 670px) {
     .Masthead-wrap p {
-      font-size: 22px;
+      font-size: 21px;
       font-weight: 300;
       line-height: 1.4em; } }
 
