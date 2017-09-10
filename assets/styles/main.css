@@ -427,7 +427,7 @@ a {
       width: 100%; } }
 
 .title {
-  color: #323232;
+  color: #010A19;
   font-family: 'Open Sans', "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 42px;
   font-weight: 600;
@@ -492,7 +492,7 @@ body:not(.Home) .Nav > .Header {
       padding: 43px 60px 45px; } }
 
 .Logo {
-  color: #323232;
+  color: #010A19;
   border-radius: 100%;
   display: inline-block;
   font-size: 42px;
@@ -546,7 +546,7 @@ body:not(.Home) .Nav > .Header {
 
 .Masthead-wrap h1 {
   animation: fadeInDrop 400ms 800ms cubic-bezier(0.46, 0.03, 0.52, 0.96) 1 forwards;
-  color: #323232;
+  color: #010A19;
   font-family: 'Open Sans', "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 38px;
   font-weight: 600;
