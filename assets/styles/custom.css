@@ -39,6 +39,9 @@
   padding: 0 -20px;
   display: none;
 }
+.show {
+  display: block;
+}
 .m-link-list {
   list-style: none;
   background-color: #010A19;
