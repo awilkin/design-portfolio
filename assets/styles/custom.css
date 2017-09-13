@@ -577,13 +577,17 @@ a {
     width: 100%;
     margin: auto;
     box-sizing: border-box;
+    box-shadow: 4px 7px 12px 0 rgba(0, 0, 0, .1);
+  }
+  .piece-wrap .no-shadow {
+    box-shadow: none;
   }
   .piece-wrap .img-label {
     position: relative;
     left: 0;
     width: 90%;
     top: 0;
-    margin: 10px auto auto auto;
+    margin: 14px auto auto auto;
     color: rgba(1,10,25,.5);
     outline: 0;
     text-align: center;
