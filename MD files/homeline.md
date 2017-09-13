@@ -20,9 +20,7 @@ I was the product designer over a team of ten during the day-long design and dev
 ## The Process
 
 ### Initial Research
-I worked side-by-side with the client to understand her vision. She'd recently been through a remodeling fiasco, so in this case, she was also a user. I could conduct user interviews and usability testing throughout the day as I was building screens. Not ideal, but better than a client that's never been through the experience.
-
-After speaking with the client, it became clear that in order to solve communication problems between the contractor and the remodeling client, both parties needed to see the budget, the schedule, and the tasks of the remodeling project. These three pieces of information are vital to both parties and cause the most contention. By making this information transparent, both parties could foresee problems and solve them early on.
+I worked side-by-side with the client to understand her vision. She'd recently been through a remodeling fiasco, so in this case, she was also a user. I could conduct small user interviews and usability testing throughout the day as I was building screens.
 
 ### Wireframes
 The entire team met and used a whiteboard to define the fundamental functions necessary to solve the user's problem. Keeping in mind that we only had 9 hours to build and deploy our app, we kept things as simple as possible.
@@ -31,37 +29,38 @@ The entire team met and used a whiteboard to define the fundamental functions ne
 
 ### Features
 
-#### Newsfeed
-Keeping in mind the 'Why' of the application, I had two goals with the newsfeed.
-- Details like the time, location, and description of an event are readily available
-- Sharing events with friends is easy
-Both of these elements were necessary to helping the user cure their loneliness and boredom. The user needed to be able to peruse events quickly and invite other friends. This is why from the newsfeed you can see the event title, the description, the time, the location, and the number of people going to each event (and a red notification is a Facebook friend is going). The Share icon is also available for every event.
-> old-newsfeed and newsfeed side by side
+#### Project Summary
+After speaking with the client, it became clear that in order to solve communication problems between the contractor and the remodeling client, both parties needed to see the budget, the schedule, and the tasks of the remodeling project. These three pieces of information are vital to both parties and cause the most contention. By making this information transparent and readily available from a project summary page, both parties could foresee problems and solve them early on.
 
-#### Event Details
-Originally, I had event details on a separate page. A user would click on an event from the newsfeed to view further details. Upon further consideration, I decided to make that information available from an expanded version of the newsfeed itself. Again, the purpose of the app was to make it as easy as possible for the user to cure his loneliness and find something to do with friends, so I should make the user flow towards that goal as quick and easy as possible.
-> Separate page for old-detail
+> p-detail.png
+> It's easy to see the budget for the project, who to contact, what tasks are happening that day all from the project detail page
 
-Now, a user simply taps the event for the event details to expand within the newsfeed. The user can then see who's going, join the event, or go to the chat to check it out more.
-> newsfeed-expand side by side
+#### Budget
+I chose to let contractors and clients see the budget in two ways. First in a quick summary view, and second in an analysis-friendly view where either party can get down to the granular details and compare the bid of a project versus what was actually spent. This way everyone involved knows where the charges are coming from and communication between parties can be more direct and efficient.
 
-#### Create Event
-A natural extension of joining events quickly is creating events quickly. The '+' button on the bottom right is easy accessible from the newsfeed, so it's a simple 3-step process to create a new event. Tap the '+' button, enter the details of the event and invite friends, and submit.
+> budget_breakdown.png
+> See the allocated amounts for each sub-project under a larger element of the project
 
-> old-create
+> task-breakdown.png
+> See the tasks associated with the cost of plumbing
 
-#### Chat
-Communication is fundamental to creating and following through with plans. Naturally, this meant a chat feature should be included within Who's Down to facilitate each user's plans. For each event created, we would include a chat function so that all involved, whether they were Facebook friends or not, could communicate and coordinate with each other.
+> full_budget_breakdown.png
+> The drill-down version of the budget, where it's easy to see what the bid was and what the contractor is actually paying for it. Are you on track?
+
+#### Scheduled Tasks
+Another source of confusion between clients and contractors is knowing what work is being currently being done, and what needs to happen next. Contractors managing several projects need to see what tasks need to be completed today, so I created the view below where they can see all their current projects with notifications for projects that require action. To make it even easier, there's another list at the bottom that shows all Scheduled Tasks for the day.
+
+> contract-p-dropdown.png
+> Contractor can see projects currently in progress and if any of them require immediate action
+
+But what if the contractor realizes they forgot a vital task? No problem, they can add it into the project and get approval from the client to proceed, all from within Homeline.
+
+> add_request.png
+> All required tasks for a certain portion of the project can be viewed, and new tasks can be added
 
 ## The Solution
-> insert wd-blue
+> insert ipad-iphone-mockup.png
 
-Users sign in to Who's Down using Facebook and immediately see the newsfeed. They can search for events or simply browse for something that looks interesting. The most important details of each event can be seen from the newsfeed, so users can determine if they could or want to go to the event. They can also see whether any of their friends are already going. If they want to see which friends, they simply tap to see the names of those going. Once a user picks an event, they can use the chat to talk to friends and strangers alike going to the event.
+By the end of the day, we had a fully functioning app that could help contractors and remodeling clients communicate with each other and be on the same page. Both parties could see the budget, the tasks for the day, and could easily communicate with each other. Homeline was fully developed in a single day and handed off to the client at the end of the day.
 
-> insert wd-phone
-
-If nothing strikes their fancy, it's easy to create a new invite and see who's down.
-
-Who's Down is still currently in development, and is expected to be deployed within the next month.
-
-I've learned a lot since I created these designs, and I would do things very differently now. In fact, I [wrote a Medium story about it](https://medium.com/@aliciadwilkin/rapid-prototyping-for-a-spontaneous-product-5318be822aac) - check it out to learn how I'd apply design iterations and user feedback to validate my designs.
+If I could restart, I would include a contractor in the research portion of the process. We received plenty of input from one potential user of the app but in order for the application to succeed contractors would also need to invest in using Homeline. Using Homeline would be a large investment of time for contractors. Having a contractor present during the rapid prototyping would likely improve the ease of data input for the application as well. 
