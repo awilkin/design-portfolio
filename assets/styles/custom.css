@@ -134,58 +134,6 @@
     font-size: 1.5em;
   }
 
-
-/*
-.projects {
-  display: flex;
-  flex-flow: row wrap;
-  margin-top: 60px
-}
-.featured-container {
-  width: 100%;
-}
-
-  a .project-box {
-    width: 360px;
-    background-color: #fff;
-    margin: 0 60px 70px 0;
-    box-shadow: 7px 13px 50px 0 rgba(255,255,255,0.30);
-    border-radius: 2px;  }
-    @media (max-width: 1042px) {
-      a .project-box {
-        width: 100%;
-        margin: 0 0 70px 0;
-        justify-content: center;
-      }
-      .featured-container a {
-        width: 100%;
-      }
-
-    }
-    a .project-box .last {
-      margin-right: 0;
-    }
-  a .proj-title-text {
-    margin: 0;
-    color: #fff;
-    font-size: 3em;
-    margin-left: 23px;
-    padding-top: 170px; }
-  a .proj-desc {
-    padding: 16px 23px 16px;
-    color: #010A19;
-    line-height: 1.4em; }
-  a .proj-desc > p {
-    margin-top: 0;
-    font-size: 1.3em; }
-  a .proj-img {
-    height: 240px;
-    background-size: 100%; }
-    .olumo-cover {
-      background-image: url('../imgs/olumo-cover.png'); }
-    .bm-cover {
-      background-image: url('../imgs/bm-cover.png'); }*/
-
 .white {
   color: #fff;
 }
