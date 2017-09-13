@@ -589,7 +589,7 @@ body:not(.Home) .Nav > .Header {
     .CaseStudy {
       align-items: center;
       display: flex;
-      height: 100vh; } }
+      min-height: 100vh; } }
 
 /*@media (max-width: 445px) {
   .CaseStudy-wrap {
@@ -613,7 +613,7 @@ body:not(.Home) .Nav > .Header {
     align-items: center;
     vertical-align: middle;
     display: flex;
-    height: 100vh; } }
+    min-height: 100vh; } }
 
 @media (max-width: 669px) {
   .CaseStudy.-salesforce .CaseStudy-wrap {

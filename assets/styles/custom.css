@@ -114,6 +114,9 @@
   #right-arrow {
     padding-top: 6px; }
 
+  .principles {
+    padding: 12% 0;
+  }
     @media screen and (max-width: 770px) {
       .principles {
         padding-top: 25%;
@@ -376,7 +379,8 @@
 }
 
 .portfolio-pieces img {
-  max-width: 100%;
+  /*max-width: 100%;*/
+  width: 100%;
   display: block;
 }
 
