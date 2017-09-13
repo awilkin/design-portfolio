@@ -487,6 +487,10 @@ article:hover .card {
   align-items: flex-start;
   justify-content: center;
   flex-wrap: wrap;
+}  @media screen and (min-width: 670px) {
+  .bricklayer {
+    justify-content: flex-start;
+  }
 }
 
 a {
@@ -613,6 +617,8 @@ a {
   border: 3px solid #FFF;
   position: relative;
   box-shadow: 4px 7px 12px 0 rgba(0, 0, 0, .1);
+  margin-bottom: 32px;
+  max-width: 1024px;
 }
 
 .projects a {
