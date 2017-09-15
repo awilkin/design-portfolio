@@ -9,6 +9,9 @@
     padding: 15px 20px 0;
     font-family: 'Open Sans', sans-serif;
     display: block; }
+  .nav-link:hover {
+    color: #0D5DDD;
+  }
 
 .strike {
   position: relative;
